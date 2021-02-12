@@ -1,0 +1,26 @@
+// TIPE NODE YANG AKAN DIPELAJARI
+// 1.elemen
+// 2.text
+// 3.document
+
+// kalau hanya satu elemen bisa disebut node/simpul
+// kalau memilih lebih dari satu node itu disebut nodeList tidak peduli tipenya apa
+// kalau HTMLCollection itu adalah kumpulan node khusus tipenya elemen html saja
+// perbedaan tersebut nantinya membedakan cara mengelolanya
+
+// nodeList vs. HTMLCollection
+// 1. keduanya merupakan kumpulan node
+// 2. struktur datanya mirip array berisi object"
+// 3. nodeList dapat berisi node apapun, sedangkan HTMLCollection harus berisi elemen HTML
+// 4. HTMLCollection bersifat live sedangkan nodeList tidak
+
+// STRUKTUR HIERARKI DOM
+// 1. Root node : 
+// node yang menjadi sumber dari semua node lain di dalam DOM
+// document
+// 2. Parent node :
+// node yang berada 1 tingkat diatas node yang lain
+// body adalah parent dari h1,p,p,div dan a
+// 3. Child node :
+// node yang berada 1 tingkat dibawah node yang lain
+// h1 adalah child dari body
