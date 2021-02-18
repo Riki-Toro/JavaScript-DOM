@@ -39,3 +39,36 @@ t2.addEventListener('click', function() {
 
 	bg.style.backgroundColor = 'rgb('+ r +','+ g +','+ b +')';
 });
+
+
+
+
+// kasus 3 membuat slider dengan parameter 3 warna dasar
+
+const sMerah = document.querySelector('input[name=slider-merah]');
+const sHijau = document.querySelector('input[name=slider-hijau]');
+const sBiru = document.querySelector('input[name=slider-biru]');
+
+sMerah.addEventListener('input', function() {
+	const red = sMerah.value;
+	const green = sHijau.value;
+	const blue = sBiru.value;
+	bg.style.backgroundColor = 'rgb('+ red +','+ green +','+ blue +')';
+});
+
+sHijau.addEventListener('input', function() {
+	const red = sMerah.value;
+	const green = sHijau.value;
+	const blue = sBiru.value;
+	bg.style.backgroundColor = 'rgb('+ red +','+ green +','+ blue +')';
+});
+
+sBiru.addEventListener('input', function() {
+	const red = sMerah.value;
+	const green = sHijau.value;
+	const blue = sBiru.value;
+	bg.style.backgroundColor = 'rgb('+ red +','+ green +','+ blue +')';
+});
+
+
+
