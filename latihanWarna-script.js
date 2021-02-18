@@ -72,3 +72,18 @@ sBiru.addEventListener('input', function() {
 
 
 
+
+// kasus 4 bermain dengan kursor atau mouse
+bg.addEventListener('mousemove', function(event) {
+	// posisi mouse
+	// console.log(event.clientX);
+
+	// ukuran browser
+	// console.log(window.innerWidth);
+
+	const xPos = Math.round((event.clientX / window.innerWidth) * 255);
+	const yPos = Math.round((event.clientX / window.innerHeight) * 255);
+
+	bg.style.backgroundColor = 'rgb('+xPos+', '+yPos+',100)';
+});
+
