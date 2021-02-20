@@ -36,8 +36,8 @@ function putar() {
 		}
 		imgComputer.setAttribute('src', 'img/' + gambar[i++] + '.png');
 		if (i == gambar.length) i = 0;
-	}, 100)
-}
+	}, 100);
+};
 
 
 
