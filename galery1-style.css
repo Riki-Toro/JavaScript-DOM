@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ccc;
+}
+
+h1 {
+	margin: 60px auto 30px;
+	text-align: center;
+	text-shadow: 2px 2px white;
+	font-size: 36px;
+}
+
+.container {
+	width: 600px;
+	margin: 10px auto 20px;
+	background-color: white;
+	border: 5px solid white;
+	overflow: auto;
+}
+
+.thumb {
+	width: 200px;
+	float: left;
+	border: 2px solid white;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.thumb:hover {
+	opacity: 0.5;
+	transition: 0.4s;
+}
+
+footer {
+	font-family: sans-serif;
+	color: black;
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 12px;
+}
+
+.active {
+	opacity: 0.5;
+}
